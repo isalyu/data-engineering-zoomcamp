@@ -1,0 +1,35 @@
+# Local environment variables
+.env
+
+# macOS system files
+.DS_Store
+
+# Terraform sensitive files
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Keys and credentials
+keys/
+*.json
+
+# Jupyter notebooks and checkpoints
+*.ipynb
+.ipynb_checkpoints/
+
+# Data files
+*.csv
+*.csv.*
+*.gz
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code workspace settings
+.vscode/
+*.code-workspace
+
+# Ignore ny_taxi_postgres_data contents
+ny_taxi_postgres_data/
