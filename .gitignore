@@ -33,3 +33,19 @@ __pycache__/
 
 # Ignore ny_taxi_postgres_data contents
 ny_taxi_postgres_data/
+
+# Ignore everything in mage-zoomcamp by default 
+mage-zoomcamp/*
+
+# Relevant files to keep from mage-zoomcamp 
+!mage-zoomcamp/magic-zoomcamp/
+mage-zoomcamp/magic-zoomcamp/*
+
+!mage-zoomcamp/magic-zoomcamp/data_exporters/
+!mage-zoomcamp/magic-zoomcamp/data_loaders/
+!mage-zoomcamp/magic-zoomcamp/transformers/
+
+!mage-zoomcamp/magic-zoomcamp/io_config.yaml
+!mage-zoomcamp/magic-zoomcamp/data_exporters/*.py
+!mage-zoomcamp/magic-zoomcamp/data_loaders/*.py
+!mage-zoomcamp/magic-zoomcamp/transformers/*.py
